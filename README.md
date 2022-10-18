@@ -15,3 +15,10 @@ To delve into digital signal processing basics, the project needed a source sign
 ## Shifting Fire
 When I first began coding this project, my intent was to create a decoder which processed the audible tones heard during the WWV broadcast.  After researching the broadcast format, I discovered I needed to shift fire from decoding the audible part of the WWV signal (clicks, tones, etc.) and focus my efforts on decoding the binary-coded decimal (BCD) signal present at 100Hz in the WWV/WWVH transmission.  The BCD signal provided the time performance I needed, while at the same time providing an excellent learning tool for the signal processing lab.
 
+## Software Tools
+Several software tools were used in this lab:
+
+- *[GNURadio](https://www.gnuradio.org/)*: A robust software defined radio development environment.  Provides GNURadio Companion, the primary software tool used for this project.
+- *[Baudline](https://www.baudline.com/)*: A 2D spectrum visualization tool allowing graphical depiction of signals in both time and frequency domains.
+- *[Tenacity](https://tenacityaudio.org/)*: An audio processing suite allowing graphical depiction of signals in both time and amplitude.
+
